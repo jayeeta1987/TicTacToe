@@ -2,8 +2,6 @@
 
 Team project python developing a tic-tac-toe game with python tkinter. In this game we have created both option for computer and human player.To start a game we need to run game.py module.In drawFrame.py module we have generated a small window with tictactoe welcome message and playing option for human and computer with Tkinter label , radio button, button etc. After selecting of any of this option a next frame will be opened with player's name options.In human playing option there are two label, grid for player one and player two. for computer playing option there is one label, grid for player one. After each selection old windows will be destroyed.
 
-(/screenshots/tic1.PNG?raw=true "Screenshot 1")
-
 According to the selction human.py or computer.py module will be called. In this sections a new window will be created with 9 grids. grids default image is selected in white(which is uploaded as (default.png / default.gif). 
 
 In human.py module players will press the grids with 'x' or 'o' icons(cross.png ,circle.png is uploaded) for playing. A dictionary will track the grids is pressed or not. default value is false. Selection of icons will be random. Players' names and score will be displayed in bottom of this window (left hand and right hand). A menu button is created to start from begining , restart the game and exit. Score database will be displayed after clicking scores in help options. To check users win option a function userWinConfig'()' is used. It will check all possible options for winning combination starting from (1,2,3),(1,4,7),(1,5,9)and so on. Based on this it will select winner and update score. The main idea of this function is taken from:- https://github.com/rdespoiu/tkinter-TicTacToe.
