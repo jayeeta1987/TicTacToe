@@ -81,7 +81,7 @@ def frame(player1,player2):
     gridButtons['grid4'] = grid4
  
     grid5 = Button(window, state = NORMAL, bg="white", command = lambda: gridPressed('grid5',grid5,icons,window))
-   grid5.grid(row=2, column = 1)
+    grid5.grid(row=2, column = 1)
     grid5.config(image = default, width = '145', height = '150')
     gridButtons['grid5'] = grid5
    
