@@ -749,6 +749,7 @@ def createMenuItems(window,resetNewGame):
     helpmenu = Menu(menu,tearoff=False)#create helpmenu object with menu object with tearoff=False
     menu.add_cascade(label="Help", menu=helpmenu)#add label 'Help' to window menu and assign the helpmenu object
     helpmenu.add_command(label="About...", command=About)#add label 'About' to helpmenu and bind with method 'About'
+    helpmenu.add_command(label="Scores",command=TopTenScore)# add lebel 'scores' to and bind with method 'TopTenScore'
 
 #function 'StartFromBegin' it will destroy the old game window and start the game from begining    
 def StartFromBegin(window):
