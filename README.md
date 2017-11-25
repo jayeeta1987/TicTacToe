@@ -15,6 +15,9 @@ In computer.py module there will be a human player and computer player. The idea
 
 Module 'userDataBase.py' is created to generate a small table of score with player name , id , score , date time. 'Sqlite3' is used for this program. this module is imported in human.py and computer.py to update score according to id. For different player id will be auto incremented and generate automatically.
 
+## NOTE: 
+All image files (default.png,default.gif,cross.png,circle.png) should be in same location with the all .py files otherwise it will throw an exception.
+
 ##### Screen 1:-
 <img width="364" alt="tic1" src="https://user-images.githubusercontent.com/31170781/33223547-7a47ab72-d12e-11e7-867d-e9429d5dc244.PNG">
 
