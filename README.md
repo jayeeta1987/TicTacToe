@@ -5,7 +5,7 @@
 - DataBase: Sqlite3
 ## **Project Description**
 
-Team project python developing a tic-tac-toe game with python tkinter. In this game we have created both option for computer and human player.To start a game we need to run game.py module.In drawFrame.py module we have generated a small window with tictactoe welcome message and playing option for human and computer with Tkinter label , radio button, button etc. After selecting of any of this option a next frame will be opened with player's name options.In human playing option there are two label, grid for player one and player two. for computer playing option there is one label, grid for player one. After each selection old windows will be destroyed.
+Team project python developing a tic-tac-toe game with python tkinter. In this game we have created both option for computer and human player.To start a game we need to run game.py module.In drawFrame.py module we have generated a small window with tictactoe welcome message and playing option for human and computer with Tkinter label , radio button, button etc. After selecting of any of this option a next frame will be opened with player's name options.In human playing option there are two label, grid for player one and player two. For computer playing option there is one label, grid for player one. After each selection old windows will be destroyed.
 
 According to the selction human.py or computer.py module will be called. In this sections a new window will be created with 9 grids. grids default image is selected in white(which is uploaded as (default.png / default.gif). 
 
